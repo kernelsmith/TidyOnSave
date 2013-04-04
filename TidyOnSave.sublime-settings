@@ -1,0 +1,13 @@
+/*
+    TidyOnSave default settings
+
+    YOU MUST Change the path below to match the real location of msftidy which is typically
+    <msf_install_dir>/tools/msftidy.rb, however don't change it in Settings - Default, copy
+    the code below into Settings - User and chagne the path there, that way it won't get
+    overwritten when/if TidyOnSave is updated.
+    User Settings can be found at Preferences->Package Settings->TidyOnSave->Settings-User
+*/
+
+{
+    "tidy_on_save_cmd": "/opt/metasploit4/msf3/tools/msftidy.rb"
+}
